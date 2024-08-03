@@ -1,0 +1,170 @@
+{
+  "categories": [
+    { "id": "all", "name": "Hepsi" },
+    { "id": "breakfast", "name": "Sabah" },
+    { "id": "lunch", "name": "Öğlen" },
+    { "id": "dinner", "name": "Akşam" }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "title": "Kahvaltı Burgeri",
+      "category": "breakfast",
+      "price": 8.99,
+      "img": "/images/item-1.jpeg",
+      "desc": "Güne enerjik başlamak için enfes kahvaltı burgerimiz."
+    },
+    {
+      "id": 2,
+      "title": "Sabah Sandwichi",
+      "category": "breakfast",
+      "price": 7.99,
+      "img": "/images/item-2.jpeg",
+      "desc": "Taze hazırlanmış sabah sandwichi ile güne harika bir başlangıç yapın."
+    },
+    {
+      "id": 3,
+      "title": "Kahvaltı Tabağı",
+      "category": "breakfast",
+      "price": 10.99,
+      "img": "/images/item-3.jpeg",
+      "desc": "Yumurtalı ve peynirli kahvaltı tabağı ile sabah keyfi."
+    },
+    {
+      "id": 4,
+      "title": "Bacon ve Yumurtalı Burger",
+      "category": "breakfast",
+      "price": 9.99,
+      "img": "/images/item-4.jpeg",
+      "desc": "Bacon ve yumurta ile hazırlanan özel kahvaltı burgerimiz."
+    },
+    {
+      "id": 5,
+      "title": "Whopper Menü",
+      "category": "lunch",
+      "price": 14.99,
+      "img": "/images/item-5.jpeg",
+      "desc": "Burger King'in klasik Whopper menüsüyle öğle yemeğinizi şenlendirin."
+    },
+    {
+      "id": 6,
+      "title": "Double Whopper",
+      "category": "lunch",
+      "price": 16.99,
+      "img": "/images/item-6.jpeg",
+      "desc": "Çift katlı Whopper ile daha fazla lezzet."
+    },
+    {
+      "id": 7,
+      "title": "Tavuklu Whopper",
+      "category": "lunch",
+      "price": 13.99,
+      "img": "/images/item-7.jpeg",
+      "desc": "Lezzetli tavuklu Whopper menüsü ile öğle yemeğinizi taçlandırın."
+    },
+    {
+      "id": 8,
+      "title": "Vejetaryen Whopper",
+      "category": "lunch",
+      "price": 12.99,
+      "img": "/images/item-8.jpeg",
+      "desc": "Sebzelerle dolu vejetaryen Whopper ile sağlıklı bir öğle yemeği."
+    },
+    {
+      "id": 9,
+      "title": "Dumanlı BBQ Burger",
+      "category": "dinner",
+      "price": 17.99,
+      "img": "/images/item-9.jpeg",
+      "desc": "Dumanlı BBQ soslu ve leziz etli burgerimiz, akşam yemeği için mükemmel."
+    },
+    {
+      "id": 10,
+      "title": "Bacon King Burger",
+      "category": "dinner",
+      "price": 18.99,
+      "img": "/images/item-10.jpeg",
+      "desc": "Bacon ve peynirin mükemmel uyumu Bacon King Burger."
+    },
+    {
+      "id": 11,
+      "title": "Ranch King Burger",
+      "category": "dinner",
+      "price": 16.99,
+      "img": "/images/item-11.jpeg",
+      "desc": "Özel ranch soslu burgerimizle akşam yemeğinizde fark yaratın."
+    },
+    {
+      "id": 12,
+      "title": "Çift Katlı Cheese Burger",
+      "category": "dinner",
+      "price": 15.99,
+      "img": "/images/item-12.jpeg",
+      "desc": "Çift katlı peynirli burger ile doyurucu bir akşam yemeği."
+    },
+    {
+      "id": 13,
+      "title": "Klasik Burger",
+      "category": "all",
+      "price": 9.99,
+      "img": "/images/item-13.jpeg",
+      "desc": "Burger King'in her zaman sevilen klasik hamburgeri."
+    },
+    {
+      "id": 14,
+      "title": "Patates Kızartması",
+      "category": "all",
+      "price": 3.99,
+      "img": "/images/item-14.jpeg",
+      "desc": "Altın sarısı, çıtır çıtır patates kızartması."
+    },
+    {
+      "id": 15,
+      "title": "Soğan Halkaları",
+      "category": "all",
+      "price": 4.99,
+      "img": "/images/item-15.jpeg",
+      "desc": "Çıtır soğan halkaları ile her öğünde atıştırmalık."
+    },
+    {
+      "id": 16,
+      "title": "Mozzarella Çubukları",
+      "category": "all",
+      "price": 5.99,
+      "img": "/images/item-16.jpeg",
+      "desc": "Eriyen mozzarella peyniri ile enfes atıştırmalık."
+    },
+    {
+      "id": 17,
+      "title": "Whopper Jr.",
+      "category": "all",
+      "price": 6.99,
+      "img": "/images/item-17.jpeg",
+      "desc": "Küçük boy Whopper ile her an lezzeti yaşayın."
+    },
+    {
+      "id": 18,
+      "title": "Tavuk Burger",
+      "category": "all",
+      "price": 8.99,
+      "img": "/images/item-18.jpeg",
+      "desc": "Lezzetli tavuk burger ile her öğünde keyif."
+    },
+    {
+      "id": 19,
+      "title": "Çikolatalı Sufle",
+      "category": "all",
+      "price": 4.99,
+      "img": "/images/item-19.jpeg",
+      "desc": "Tatlı krizlerine son veren çikolatalı sufle."
+    },
+    {
+      "id": 20,
+      "title": "Çilekli Milkshake",
+      "category": "all",
+      "price": 4.99,
+      "img": "/images/item-20.jpeg",
+      "desc": "Serinlemek için enfes çilekli milkshake."
+    }
+  ]
+}
