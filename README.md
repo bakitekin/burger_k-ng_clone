@@ -1,6 +1,7 @@
 ## installation
-db.json server wacht is not available
-http://localhost:3000/menu
+ //json-server --watch db.json --port 3000
+
+//npm run server
 
  ## dependencies:
     "axios": "^1.7.3",

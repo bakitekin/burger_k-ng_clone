@@ -11,7 +11,7 @@ const Menu = ({ selectedCategory }) => {
       .then((response) => {
         if (response.data && response.data.menu) {
           setMenuItems(response.data.menu);
-          console.log("Fetched data:", response.data.menu);
+
         } else {
           throw new Error("Invalid data format");
         }
