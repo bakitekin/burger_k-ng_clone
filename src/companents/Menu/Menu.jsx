@@ -39,15 +39,15 @@ const Menu = ({ selectedCategory }) => {
   return (
     <div className="bg-[#FEB800] w-full flex justify-center items-center">
       <div className="container p-4 rounded-lg text-[#FEB800] grid gap-4 max-w-full max-w-9xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full sm:w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full sm:w-full ">
           {filteredItems.map((item) => (
             <div
               key={item.id}
-              className="bg-[#1F1F1F] p-6 gap-8 rounded-lg shadow-lg flex flex-col items-start relative max-w-xs mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg"
+              className="bg-[#1F1F1F] p-6 gap-8 rounded-lg shadow-lg flex flex-col items-start relative max-w-xs mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg "
             >
               <div className="w-full h-64 relative">
                 <img
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110"
                   src={item.img}
                   alt={item.title}
                 />
@@ -58,7 +58,6 @@ const Menu = ({ selectedCategory }) => {
                 </h5>
                 <p className="line-clamp-2 text-white">{item.desc}</p>
 
-                {/* This wrapper ensures the button and price are pushed to the bottom */}
                 <div className="absolute bottom-4 right-4 left-4 flex items-center justify-between">
                   <p className="font-extrabold text-xl text-white">
                     $ {item.price}
